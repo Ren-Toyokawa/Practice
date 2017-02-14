@@ -17,8 +17,11 @@ class TwitterInformation {
     var twAccount: ACAccount?
     let TWITTER_TIMELINE_URL = "https://api.twitter.com/1.1/statuses/user_timeline.json"
     
+    init(){
+        
+    }
     
-    func getAccounts(callBack: ([ACAccount]) -> Void){
+    func getAccounts() -> ACAccount {
         // アカウントのタイプを取得する
         let accountType: ACAccountType = accountStore.accountType(withAccountTypeIdentifier: ACAccountTypeIdentifierTwitter)
         
@@ -41,7 +44,6 @@ class TwitterInformation {
             return
         }
         accountStore.requestAccessToAccounts(with: accountType, options: nil, completion: handler)
-        callBack(accounts)
     }
     
     
@@ -55,7 +57,8 @@ class TwitterInformation {
         sendRequest(url: url, requestMethod: .GET , params: nil){(responseData,urlResponse) -> Void in
             do{
                 let result:NSMutableArray = try JSONSerialization.jsonObject(with: responseData, options: .allowFragments) as! NSMutableArray
-                callBack(result)
+                print(result)
+                //callBack(result)
             } catch{
                 print("エラーが発生しました。")
             }
