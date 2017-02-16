@@ -17,6 +17,13 @@ class TwitterInformation {
     var twAccount: ACAccount?
     let TWITTER_TIMELINE_URL = "https://api.twitter.com/1.1/statuses/user_timeline.json"
     
+    init(){
+        let setTwAccount = { (accounts: [ACAccount]) -> Void in
+            self.twAccount = accounts[0]
+            print("twitter Account get successfull");
+        }
+        getAccounts(callBack: setTwAccount);
+    }
     
     func getAccounts(callBack: ([ACAccount]) -> Void){
         // アカウントのタイプを取得する
