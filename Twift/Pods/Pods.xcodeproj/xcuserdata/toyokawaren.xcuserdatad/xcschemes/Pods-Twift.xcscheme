@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-               BuildableName = "Twift.app"
-               BlueprintName = "Twift"
-               ReferencedContainer = "container:Twift.xcodeproj">
+               BlueprintIdentifier = "201A072314A7C1665EA01EF42384275B"
+               BuildableName = "Pods_Twift.framework"
+               BlueprintName = "Pods-Twift"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35A59B571DD9D6C6007586DA"
-               BuildableName = "TwiftTests.xctest"
-               BlueprintName = "TwiftTests"
-               ReferencedContainer = "container:Twift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
+            BlueprintIdentifier = "201A072314A7C1665EA01EF42384275B"
+            BuildableName = "Pods_Twift.framework"
+            BlueprintName = "Pods-Twift"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

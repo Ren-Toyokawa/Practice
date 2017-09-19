@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-               BuildableName = "Twift.app"
-               BlueprintName = "Twift"
-               ReferencedContainer = "container:Twift.xcodeproj">
+               BlueprintIdentifier = "357743DF1E73B1B4001B2DFA"
+               BuildableName = "PromiseTestProj.app"
+               BlueprintName = "PromiseTestProj"
+               ReferencedContainer = "container:PromiseTestProj.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35A59B571DD9D6C6007586DA"
-               BuildableName = "TwiftTests.xctest"
-               BlueprintName = "TwiftTests"
-               ReferencedContainer = "container:Twift.xcodeproj">
+               BlueprintIdentifier = "357743F31E73B1B4001B2DFA"
+               BuildableName = "PromiseTestProjTests.xctest"
+               BlueprintName = "PromiseTestProjTests"
+               ReferencedContainer = "container:PromiseTestProj.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
+            BlueprintIdentifier = "357743DF1E73B1B4001B2DFA"
+            BuildableName = "PromiseTestProj.app"
+            BlueprintName = "PromiseTestProj"
+            ReferencedContainer = "container:PromiseTestProj.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
+            BlueprintIdentifier = "357743DF1E73B1B4001B2DFA"
+            BuildableName = "PromiseTestProj.app"
+            BlueprintName = "PromiseTestProj"
+            ReferencedContainer = "container:PromiseTestProj.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35A59B431DD9D6C6007586DA"
-            BuildableName = "Twift.app"
-            BlueprintName = "Twift"
-            ReferencedContainer = "container:Twift.xcodeproj">
+            BlueprintIdentifier = "357743DF1E73B1B4001B2DFA"
+            BuildableName = "PromiseTestProj.app"
+            BlueprintName = "PromiseTestProj"
+            ReferencedContainer = "container:PromiseTestProj.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

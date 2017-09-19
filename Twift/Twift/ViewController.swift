@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
     // Tableで使用する配列を設定する
@@ -19,6 +18,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let twInfo : TwitterInformation = TwitterInformation()
+        twInfo.getTimeLine()
         // Status Barの高さを取得する.
         let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
         
