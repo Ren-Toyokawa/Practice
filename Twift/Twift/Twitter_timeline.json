@@ -1,0 +1,2186 @@
+
+
+twitter Account get successfull
+Account Get Success Full
+2017-08-21 08:51:36.448471+0900 Twift[5156:2419622] [core] Prepared Request URL: https://api.twitter.com/1.1/statuses/home_timeline.json
+[
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/tapbots.com\/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "lang" : "de",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : "tenderlove",
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899418582676905990,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/378800000325798111\/ca48276f8ebbbbac9c6ce83aac3c8548_normal.jpeg",
+      "created_at" : "Tue May 13 17:25:31 +0000 2008",
+      "id" : 14761655,
+      "default_profile_image" : false,
+      "listed_count" : 1741,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "Seattle, WA",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "tenderlovemaking.com",
+              "url" : "http:\/\/t.co\/gN1GLubxAe",
+              "indices" : [
+                0,
+                22
+              ],
+              "expanded_url" : "http:\/\/tenderlovemaking.com"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "http:\/\/t.co\/gN1GLubxAe",
+      "description" : "ひげの山男 Job: GitHub Opinions: Mine  When I'm not trimming my beard, I'm hanging out with my wife, @ebiltwin.\n\n4CE9 1B75 A798 28E8 6B1A  A8BB 9531 70BC B4FF AFC6",
+      "followers_count" : 37862,
+      "geo_enabled" : true,
+      "lang" : "en",
+      "profile_text_color" : "333333",
+      "statuses_count" : 50994,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "14761655",
+      "name" : "Aaron Patterson",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000325798111\/ca48276f8ebbbbac9c6ce83aac3c8548_normal.jpeg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/14761655\/1425591616",
+      "screen_name" : "tenderlove",
+      "time_zone" : "Pacific Time (US & Canada)",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 16607,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -25200,
+      "friends_count" : 724,
+      "verified" : true,
+      "has_extended_profile" : true
+    },
+    "in_reply_to_user_id" : 14761655,
+    "retweeted" : false,
+    "text" : "(In VR mode)",
+    "created_at" : "Sun Aug 20 23:51:15 +0000 2017",
+    "in_reply_to_status_id_str" : "899418531753799680",
+    "in_reply_to_status_id" : 899418531753799680,
+    "in_reply_to_user_id_str" : "14761655",
+    "id_str" : "899418582676905990",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/tapbots.com\/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 1,
+    "lang" : "en",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899418531753799680,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/378800000325798111\/ca48276f8ebbbbac9c6ce83aac3c8548_normal.jpeg",
+      "created_at" : "Tue May 13 17:25:31 +0000 2008",
+      "id" : 14761655,
+      "default_profile_image" : false,
+      "listed_count" : 1741,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "Seattle, WA",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "tenderlovemaking.com",
+              "url" : "http:\/\/t.co\/gN1GLubxAe",
+              "indices" : [
+                0,
+                22
+              ],
+              "expanded_url" : "http:\/\/tenderlovemaking.com"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "http:\/\/t.co\/gN1GLubxAe",
+      "description" : "ひげの山男 Job: GitHub Opinions: Mine  When I'm not trimming my beard, I'm hanging out with my wife, @ebiltwin.\n\n4CE9 1B75 A798 28E8 6B1A  A8BB 9531 70BC B4FF AFC6",
+      "followers_count" : 37862,
+      "geo_enabled" : true,
+      "lang" : "en",
+      "profile_text_color" : "333333",
+      "statuses_count" : 50994,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "14761655",
+      "name" : "Aaron Patterson",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000325798111\/ca48276f8ebbbbac9c6ce83aac3c8548_normal.jpeg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/14761655\/1425591616",
+      "screen_name" : "tenderlove",
+      "time_zone" : "Pacific Time (US & Canada)",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 16607,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -25200,
+      "friends_count" : 724,
+      "verified" : true,
+      "has_extended_profile" : true
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "I think Resident Evil 7 is the first game I've quit playing because it's too scary",
+    "created_at" : "Sun Aug 20 23:51:03 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899418531753799680",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "topics.or.jp\/worldNews\/worl…",
+          "url" : "https:\/\/t.co\/ZqeHWermAn",
+          "indices" : [
+            40,
+            63
+          ],
+          "expanded_url" : "http:\/\/www.topics.or.jp\/worldNews\/worldSociety\/2017\/08\/2017082101000824.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899418119063519232,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "ネット経由の攻撃が脅威に 個人情報漏えい、人的要因減少【社会】- 徳島新聞社 \nhttps:\/\/t.co\/ZqeHWermAn",
+    "created_at" : "Sun Aug 20 23:49:24 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899418119063519232",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "the01.jp\/p0005594\/",
+          "url" : "https:\/\/t.co\/IDYOeuxINB",
+          "indices" : [
+            38,
+            61
+          ],
+          "expanded_url" : "https:\/\/the01.jp\/p0005594\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899417825902698497,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心してティ」をモットーに誰もが安心して\345安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "シールを貼るだけのお手軽詐欺 アリペイの偽QRコードを貼って１万元を盗む \nhttps:\/\/t.co\/IDYOeuxINB",
+    "created_at" : "Sun Aug 20 23:48:14 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899417825902698497",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "japan.techrepublic.com\/article\/351059…",
+          "url" : "https:\/\/t.co\/puRIzMc00e",
+          "indices" : [
+            43,
+            66
+          ],
+          "expanded_url" : "https:\/\/japan.techrepublic.com\/article\/35105964.htm"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899417528220360705,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策を\343\201できない人をサポートできる人材を各地域には「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策を\343\201できない人をサポートできる人材を各地域に\350\202育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "意外と知らない「IPアドレス」活用術（3）“本人らしさ”を判定、なりすましを見破る \nhttps:\/\/t.co\/puRIzMc00e",
+    "created_at" : "Sun Aug 20 23:47:03 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899417528220360705",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "nlab.itmedia.co.jp\/nl\/articles\/17…",
+          "url" : "https:\/\/t.co\/n6trtiH4KT",
+          "indices" : [
+            60,
+            83
+          ],
+          "expanded_url" : "http:\/\/nlab.itmedia.co.jp\/nl\/articles\/1708\/18\/news101.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899417177576452096,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティき去りにしないセキュリティ\343\200」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進き去りにしないセキュリティ\343\200」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進\345協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "Facebook、クリックベイト動画対策を実施　偽の再生ボタンで動画に見せかけた広告の表示優先度を降格 - ねとらぼ \nhttps:\/\/t.co\/n6trtiH4KT",
+    "created_at" : "Sun Aug 20 23:45:40 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899417177576452096",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "ryukyushimpo.jp\/style\/article\/…",
+          "url" : "https:\/\/t.co\/13HUFjPODP",
+          "indices" : [
+            55,
+            78
+          ],
+          "expanded_url" : "https:\/\/ryukyushimpo.jp\/style\/article\/entry-558701.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899416825351487490,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "有名人になら何を言っても大丈夫？　考えたいSNSマナー　モバプリの知っ得！［１９］ - 琉球新報Style \nhttps:\/\/t.co\/13HUFjPODP",
+    "created_at" : "Sun Aug 20 23:44:16 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899416825351487490",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "ascii.jp\/elem\/000\/001\/5…",
+          "url" : "https:\/\/t.co\/udsK3951Do",
+          "indices" : [
+            28,
+            51
+          ],
+          "expanded_url" : "http:\/\/ascii.jp\/elem\/000\/001\/533\/1533979\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899416513953710080,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をでき」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をでき\343ない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "Windows 10を「視線で操作」できるようになる \nhttps:\/\/t.co\/udsK3951Do",
+    "created_at" : "Sun Aug 20 23:43:01 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899416513953710080",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 2,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899416458970529794,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/556785665845624832\/svOdvq6q_normal.png",
+      "created_at" : "Fri Apr 20 15:43:47 +0000 2007",
+      "id" : 5335922,
+      "default_profile_image" : false,
+      "listed_count" : 2099,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "《読者のことを考える》という原則。",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "hyuki.com",
+              "url" : "https:\/\/t.co\/EeIX1qHDqK",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.hyuki.com\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/EeIX1qHDqK",
+      "description" : "『数学ガール』の作者。結城メルマガとWeb連載を毎週書いてます。文章書きとプログラミングが好きなクリスチャン。気軽に絡んでくださいね。",
+      "followers_count" : 38704,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 186587,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "5335922",
+      "name" : "結城浩",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/556785665845624832\/svOdvq6q_normal.png",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "screen_name" : "hyuki",
+      "time_zone" : "Tokyo",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 67523,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : 32400,
+      "friends_count" : 656,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "森を抜けて仕事場へ。八月も終盤戦。元気出して行きましょう！",
+    "created_at" : "Sun Aug 20 23:42:48 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899416458970529794",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "news.yahoo.co.jp\/byline\/yamamot…",
+          "url" : "https:\/\/t.co\/5bN5EqyDlj",
+          "indices" : [
+            58,
+            81
+          ],
+          "expanded_url" : "https:\/\/news.yahoo.co.jp\/byline\/yamamotoichiro\/20170820-00074746\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899416248529764352,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "Youtuber「ヒカルさん」大炎上でVALU越しに見るネット著名人ビジネスの限界(山本一郎) - Y!ニュース \nhttps:\/\/t.co\/5bN5EqyDlj",
+    "created_at" : "Sun Aug 20 23:41:58 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899416248529764352",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 1,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "zakzak.co.jp\/soc\/news\/17082…",
+          "url" : "https:\/\/t.co\/O7AqZOrXcU",
+          "indices" : [
+            24,
+            47
+          ],
+          "expanded_url" : "http:\/\/www.zakzak.co.jp\/soc\/news\/170821\/soc1708210011-n1.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 1,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899415917041299456,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "米陸軍が中国メーカーのドローンを全面使用禁止 \nhttps:\/\/t.co\/O7AqZOrXcU",
+    "created_at" : "Sun Aug 20 23:40:39 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899415917041299456",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "sankeibiz.jp\/business\/news\/…",
+          "url" : "https:\/\/t.co\/dwS8toUndM",
+          "indices" : [
+            39,
+            62
+          ],
+          "expanded_url" : "http:\/\/www.sankeibiz.jp\/business\/news\/170821\/bsj1708210500001-n1.htm"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899415563465760769,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "「会話型」ＡＩサービス拡大、求人やごみ分別案内　人間同士のような自然な会話\n https:\/\/t.co\/dwS8toUndM",
+    "created_at" : "Sun Aug 20 23:39:15 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899415563465760769",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "sakigake.jp\/news\/article\/2…",
+          "url" : "https:\/\/t.co\/hHeOwZtnej",
+          "indices" : [
+            35,
+            58
+          ],
+          "expanded_url" : "http:\/\/www.sakigake.jp\/news\/article\/20170820AK0010\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899415359651852290,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "今を探る：電子マネー詐欺（上）ＳＮＳやライン悪用｜秋田魁新報電子版 \nhttps:\/\/t.co\/hHeOwZtnej",
+    "created_at" : "Sun Aug 20 23:38:26 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899415359651852290",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twittbot.net\/\" rel=\"nofollow\">twittbot.net<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899415065576693761,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/875705855886319617\/p6WXJX1Y_normal.jpg",
+      "created_at" : "Tue Sep 06 18:57:03 +0000 2011",
+      "id" : 369085245,
+      "default_profile_image" : false,
+      "listed_count" : 153,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+
+      "location" : "ゼータ惑星",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "twilog.org\/On_Absolute",
+              "url" : "https:\/\/t.co\/ohNkOIR71B",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/twilog.org\/On_Absolute"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+            {
+              "display_url" : "goo.gl\/YGE4vk",
+              "url" : "https:\/\/t.co\/0q8pPYK9lp",
+              "indices" : [
+                79,
+                102
+              ],
+              "expanded_url" : "http:\/\/goo.gl\/YGE4vk"
+            }
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/ohNkOIR71B",
+      "description" : "整数論を研究されている（又は研究されていた）数学者の方々（主に，加藤和也先生や黒川信重先生）のお言葉をつぶやくbotです．引用元の一覧（まだ未完成）をこちら（https:\/\/t.co\/0q8pPYK9lp）に掲載しています．管理者：@etalecohomology",
+      "followers_count" : 2912,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 37094,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "369085245",
+      "name" : "素数の歌はとんからりbot",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/875705855886319617\/p6WXJX1Y_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "FFFFFF",
+      "contributors_enabled" : false,
+      "default_profile" : false,
+      "screen_name" : "On_Absolute",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "3EB55E",
+      "favourites_count" : 0,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 2583,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "ゼータの世界を旅する者として，ゼータ語翻訳機は，忘れず携帯して行きたいものです．実際，もしかすると，ゼータの方ではすでにいろいろなメッセージを送ってくれているのに，私達がまったく気づかないだけなのかも知れません．でにいろいろなメッセージを送ってくれているのに，私達がまったく気づかないだけなのかも知れません．\357\274（黒川信重）",
+    "created_at" : "Sun Aug 20 23:37:16 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899415065576693761",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "sankei.com\/affairs\/news\/1…",
+          "url" : "https:\/\/t.co\/Rre8BZ1iI8",
+          "indices" : [
+            24,
+            47
+          ],
+          "expanded_url" : "http:\/\/www.sankei.com\/affairs\/news\/170820\/afr1708200003-n1.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 1,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899414824244830208,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "「侵入」「潜伏」の２段階攻撃　手口の全体像隠す\nhttps:\/\/t.co\/Rre8BZ1iI8",
+    "created_at" : "Sun Aug 20 23:36:19 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899414824244830208",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "ascii.jp\/elem\/000\/001\/5…",
+          "url" : "https:\/\/t.co\/5Kn5qTFNt9",
+          "indices" : [
+            36,
+            59
+          ],
+          "expanded_url" : "http:\/\/ascii.jp\/elem\/000\/001\/532\/1532456\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899414287839502336,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身で\343セキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "S3のデータを機械学習で自動分類する「Amazon Macie」発表 \nhttps:\/\/t.co\/5Kn5qTFNt9",
+    "created_at" : "Sun Aug 20 23:34:11 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899414287839502336",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "ascii.jp\/elem\/000\/001\/5…",
+          "url" : "https:\/\/t.co\/bcTTWSNR7c",
+          "indices" : [
+            34,
+            57
+          ],
+          "expanded_url" : "http:\/\/ascii.jp\/elem\/000\/001\/533\/1533962\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899414093609566208,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティ人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティ\343\202やインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "解体工場の廃車を素材に“DIYカーハッキング”、脆弱性を見つける\n https:\/\/t.co\/bcTTWSNR7c",
+    "created_at" : "Sun Aug 20 23:33:24 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899414093609566208",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 1,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "itmedia.co.jp\/news\/articles\/…",
+          "url" : "https:\/\/t.co\/ELcTofUtTR",
+          "indices" : [
+            55,
+            78
+          ],
+          "expanded_url" : "http:\/\/www.itmedia.co.jp\/news\/articles\/1708\/21\/news050.html"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 1,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899413129230024704,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材きない人をサポートできる人材\343\202を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有しています。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "「ファイルレス」見えないサイバー攻撃急増　政府・金融機関など標的 (1\/2) - ITmedia NEWS \nhttps:\/\/t.co\/ELcTofUtTR",
+    "created_at" : "Sun Aug 20 23:29:34 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899413129230024704",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 1,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "japan.zdnet.com\/article\/351051…",
+          "url" : "https:\/\/t.co\/xZkRV0Hsf9",
+          "indices" : [
+            31,
+            54
+          ],
+          "expanded_url" : "https:\/\/japan.zdnet.com\/article\/35105183\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899412897876516864,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウをサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウ\343\203ントではセキュリティやインターネット、ITのニュースを共有してをサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウ\343\203ントではセキュリティやインターネット、ITのニュースを共有して\343います。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "攻撃者優位時代のセキュリティ--CISOの役割を明確にする \nhttps:\/\/t.co\/xZkRV0Hsf9",
+    "created_at" : "Sun Aug 20 23:28:39 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899412897876516864",
+    "coordinates" : null
+  },
+  {
+    "place" : null,
+    "contributors" : null,
+    "source" : "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated" : false,
+    "is_quote_status" : false,
+    "favorite_count" : 0,
+    "possibly_sensitive" : false,
+    "lang" : "ja",
+    "entities" : {
+      "symbols" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "urls" : [
+        {
+          "display_url" : "digimonostation.jp\/0000109884\/",
+          "url" : "https:\/\/t.co\/m8D0csmscK",
+          "indices" : [
+            59,
+            82
+          ],
+          "expanded_url" : "https:\/\/www.digimonostation.jp\/0000109884\/"
+        }
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "in_reply_to_screen_name" : null,
+    "possibly_sensitive_appealable" : false,
+    "retweet_count" : 0,
+    "favorited" : false,
+    "geo" : null,
+    "id" : 899412701113274368,
+    "user" : {
+      "protected" : false,
+      "is_translator" : false,
+      "profile_image_url" : "http:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "created_at" : "Thu Aug 05 12:02:55 +0000 2010",
+      "id" : 175015447,
+      "default_profile_image" : false,
+      "listed_count" : 211,
+      "profile_background_color" : "C0DEED",
+      "follow_request_sent" : false,
+      "location" : "東京 江東区",
+      "entities" : {
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "spread.or.jp",
+              "url" : "https:\/\/t.co\/I7pWZAVmw6",
+              "indices" : [
+                0,
+                23
+              ],
+              "expanded_url" : "http:\/\/www.spread.or.jp\/"
+            }
+          ]
+        },
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "url" : "https:\/\/t.co\/I7pWZAVmw6",
+      "description" : "SPREADは「置き去りにしないセキュリティ」をモットーに誰もが安心して安全にITを活用できる社会作りを目指し、自身でセキュリティ対策をできない人をサポートできる人材を各地域に育成する活動に取り組んでいます。このアカウントではセキュリティやインターネット、ITのニュースを共有していントではセキュリティやインターネット、ITのニュースを共有してい\343\201ます。",
+      "followers_count" : 3100,
+      "geo_enabled" : false,
+      "lang" : "ja",
+      "profile_text_color" : "333333",
+      "statuses_count" : 39340,
+      "following" : true,
+      "notifications" : false,
+      "profile_background_tile" : false,
+      "profile_use_background_image" : true,
+      "id_str" : "175015447",
+      "name" : "一般社団法人セキュリティ対策推進協議会",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/876201537701269504\/TeknLhCy_normal.jpg",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_sidebar_border_color" : "C0DEED",
+      "contributors_enabled" : false,
+      "default_profile" : true,
+      "profile_banner_url" : "https:\/\/pbs.twimg.com\/profile_banners\/175015447\/1444806683",
+      "screen_name" : "spread_jp",
+      "time_zone" : "Hawaii",
+      "profile_background_image_url" : "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https" : "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_link_color" : "1DA1F2",
+      "favourites_count" : 52,
+      "is_translation_enabled" : false,
+      "translator_type" : "none",
+      "utc_offset" : -36000,
+      "friends_count" : 36,
+      "verified" : false,
+      "has_extended_profile" : false
+    },
+    "in_reply_to_user_id" : null,
+    "retweeted" : false,
+    "text" : "Windows 10 PCが不調……。そんな時は「信頼性モニター」で状態をチェックしてみよう – DIGIMONO！\nhttps:\/\/t.co\/m8D0csmscK",
+    "created_at" : "Sun Aug 20 23:27:52 +0000 2017",
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "899412701113274368",
+    "coordinates" : null
+  }
+]
+Processing add Timeline now

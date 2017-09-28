@@ -14,6 +14,7 @@
 		35A59B521DD9D6C6007586DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A59B501DD9D6C6007586DA /* LaunchScreen.storyboard */; };
 		35A59B5D1DD9D6C6007586DA /* TwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A59B5C1DD9D6C6007586DA /* TwiftTests.swift */; };
 		35A59B681DD9D766007586DA /* TwitterInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A59B671DD9D766007586DA /* TwitterInformation.swift */; };
+		35D282A41F1E2C49000E1555 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D282A31F1E2C49000E1555 /* TimeLineCell.swift */; };
 		8A2212C2C2C34829AA67C736 /* Pods_TwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B888D073F3F9D413B313FDA /* Pods_TwiftTests.framework */; };
 		B0F3C85A407513C470010DCF /* Pods_Twift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D1F16133803C91AD8BB791 /* Pods_Twift.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		35A59B5C1DD9D6C6007586DA /* TwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiftTests.swift; sourceTree = "<group>"; };
 		35A59B5E1DD9D6C6007586DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35A59B671DD9D766007586DA /* TwitterInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterInformation.swift; sourceTree = "<group>"; };
+		35D282A31F1E2C49000E1555 /* TimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
 		59CD339DF3926EEA78D8012D /* Pods-TwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwiftTests/Pods-TwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80D1F16133803C91AD8BB791 /* Pods_Twift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B888D073F3F9D413B313FDA /* Pods_TwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				35A59B501DD9D6C6007586DA /* LaunchScreen.storyboard */,
 				35A59B531DD9D6C6007586DA /* Info.plist */,
 				35A59B671DD9D766007586DA /* TwitterInformation.swift */,
+				35D282A31F1E2C49000E1555 /* TimeLineCell.swift */,
 			);
 			path = Twift;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D282A41F1E2C49000E1555 /* TimeLineCell.swift in Sources */,
 				35A59B4A1DD9D6C6007586DA /* ViewController.swift in Sources */,
 				35A59B681DD9D766007586DA /* TwitterInformation.swift in Sources */,
 				35A59B481DD9D6C6007586DA /* AppDelegate.swift in Sources */,

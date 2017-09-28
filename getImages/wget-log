@@ -1,0 +1,73 @@
+--2017-09-03 09:07:48--  http://www2.hm.com/ja_jp/men/shop-by-product/view-all.html?product-type=men_all
+Resolving www2.hm.com... 118.215.178.175
+Connecting to www2.hm.com|118.215.178.175|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘www2.hm.com/ja_jp/men/shop-by-product/view-all.html?product-type=men_all.tmp’
+
+          www2.hm.co     [<=>                   ]       0  --.-KB/s               www2.hm.com/ja_jp/me     [ <=>                  ] 242.00K  --.-KB/s    in 0.1s    
+
+2017-09-03 09:07:49 (1.64 MB/s) - ‘www2.hm.com/ja_jp/men/shop-by-product/view-all.html?product-type=men_all.tmp’ saved [247809]
+
+Loading robots.txt; please ignore errors.
+--2017-09-03 09:07:49--  http://www2.hm.com/robots.txt
+Reusing existing connection to www2.hm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 14873 (15K) [text/plain]
+Saving to: ‘www2.hm.com/robots.txt.tmp’
+
+          www2.hm.co   0%[                      ]       0  --.-KB/s               www2.hm.com/robots.t 100%[=====================>]  14.52K  --.-KB/s    in 0.001s  
+
+2017-09-03 09:07:49 (12.7 MB/s) - ‘www2.hm.com/robots.txt.tmp’ saved [14873/14873]
+
+Removing www2.hm.com/ja_jp/men/shop-by-product/view-all.html?product-type=men_all.tmp since it should be rejected.
+
+--2017-09-03 09:07:49--  http://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2017_S6/9IB-MODERN-CLASSIC-TB-3x1_v2.jpg
+Reusing existing connection to www2.hm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 255040 (249K) [image/jpeg]
+Saving to: ‘www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2017_S6/9IB-MODERN-CLASSIC-TB-3x1_v2.jpg’
+
+          www2.hm.co   0%[                      ]       0  --.-KB/s               www2.hm.com/content/ 100%[=====================>] 249.06K  --.-KB/s    in 0.07s   
+
+2017-09-03 09:07:49 (3.46 MB/s) - ‘www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2017_S6/9IB-MODERN-CLASSIC-TB-3x1_v2.jpg’ saved [255040/255040]
+
+--2017-09-03 09:07:49--  http://www2.hm.com/medias/Label-Retina-Fixed-48x174-PQ-en.jpg?context=bWFzdGVyfHJvb3R8MzA1NnxpbWFnZS9qcGVnfGg2MS9oNjQvODgwMDI5MTE2MDA5NC5qcGd8YTA2MzE0MDIyZDA0NjNiYzZlYzg3NzM5MjY1NTIyZDI0OTI4OTIwZjgwZDJmZGJjNTE5ZThlNDJkODQzMGM2Ng
+Reusing existing connection to www2.hm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3056 (3.0K) [image/jpeg]
+Saving to: ‘www2.hm.com/medias/Label-Retina-Fixed-48x174-PQ-en.jpg?context=bWFzdGVyfHJvb3R8MzA1NnxpbWFnZS9qcGVnfGg2MS9oNjQvODgwMDI5MTE2MDA5NC5qcGd8YTA2MzE0MDIyZDA0NjNiYzZlYzg3NzM5MjY1NTIyZDI0OTI4OTIwZjgwZDJmZGJjNTE5ZThlNDJkODQzMGM2Ng.tmp’
+
+          www2.hm.co   0%[                      ]       0  --.-KB/s               www2.hm.com/medias/L 100%[=====================>]   2.98K  --.-KB/s    in 0s      
+
+2017-09-03 09:07:50 (76.7 MB/s) - ‘www2.hm.com/medias/Label-Retina-Fixed-48x174-PQ-en.jpg?context=bWFzdGVyfHJvb3R8MzA1NnxpbWFnZS9qcGVnfGg2MS9oNjQvODgwMDI5MTE2MDA5NC5qcGd8YTA2MzE0MDIyZDA0NjNiYzZlYzg3NzM5MjY1NTIyZDI0OTI4OTIwZjgwZDJmZGJjNTE5ZThlNDJkODQzMGM2Ng.tmp’ saved [3056/3056]
+
+Removing www2.hm.com/medias/Label-Retina-Fixed-48x174-PQ-en.jpg?context=bWFzdGVyfHJvb3R8MzA1NnxpbWFnZS9qcGVnfGg2MS9oNjQvODgwMDI5MTE2MDA5NC5qcGd8YTA2MzE0MDIyZDA0NjNiYzZlYzg3NzM5MjY1NTIyZDI0OTI4OTIwZjgwZDJmZGJjNTE5ZThlNDJkODQzMGM2Ng.tmp since it should be rejected.
+
+--2017-09-03 09:07:50--  http://www2.hm.com/medias/Conscious-en.jpg?context=bWFzdGVyfHJvb3R8MzQ2MDQ1fGltYWdlL2pwZWd8aGU4L2g1MS8xMDQyMTc3ODQxNTY0Ni5qcGd8NWU3MmVlZDRlODVhMjRlNjBjMzA0YzdjOGJiYTY0ODk1NjAwMmQ2YjFkZmM3ZmJmZWNiYjExMTMwN2U0YzQ5Zg
+Reusing existing connection to www2.hm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 346045 (338K) [image/jpeg]
+Saving to: ‘www2.hm.com/medias/Conscious-en.jpg?context=bWFzdGVyfHJvb3R8MzQ2MDQ1fGltYWdlL2pwZWd8aGU4L2g1MS8xMDQyMTc3ODQxNTY0Ni5qcGd8NWU3MmVlZDRlODVhMjRlNjBjMzA0YzdjOGJiYTY0ODk1NjAwMmQ2YjFkZmM3ZmJmZWNiYjExMTMwN2U0YzQ5Zg.tmp’
+
+          www2.hm.co   0%[                      ]       0  --.-KB/s               www2.hm.com/medias/C 100%[=====================>] 337.93K  --.-KB/s    in 0.1s    
+
+2017-09-03 09:07:50 (3.42 MB/s) - ‘www2.hm.com/medias/Conscious-en.jpg?context=bWFzdGVyfHJvb3R8MzQ2MDQ1fGltYWdlL2pwZWd8aGU4L2g1MS8xMDQyMTc3ODQxNTY0Ni5qcGd8NWU3MmVlZDRlODVhMjRlNjBjMzA0YzdjOGJiYTY0ODk1NjAwMmQ2YjFkZmM3ZmJmZWNiYjExMTMwN2U0YzQ5Zg.tmp’ saved [346045/346045]
+
+Removing www2.hm.com/medias/Conscious-en.jpg?context=bWFzdGVyfHJvb3R8MzQ2MDQ1fGltYWdlL2pwZWd8aGU4L2g1MS8xMDQyMTc3ODQxNTY0Ni5qcGd8NWU3MmVlZDRlODVhMjRlNjBjMzA0YzdjOGJiYTY0ODk1NjAwMmQ2YjFkZmM3ZmJmZWNiYjExMTMwN2U0YzQ5Zg.tmp since it should be rejected.
+
+--2017-09-03 09:07:50--  http://www2.hm.com/medias/SPRING-ICONS-en.jpg?context=bWFzdGVyfHJvb3R8MzU0MjIyfGltYWdlL2pwZWd8aDExL2gzYy8xMDM0NTAyNjM1NTIzMC5qcGd8YzZjMDA4ZDdmY2ZlNjYzOGU0MzVmMDVkOWNjZTVmNjJhNmI5MGQzM2FlZWQzMzdkYzE4NTM2NDA4ZjBmZjZjOA
+Reusing existing connection to www2.hm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 354222 (346K) [image/jpeg]
+Saving to: ‘www2.hm.com/medias/SPRING-ICONS-en.jpg?context=bWFzdGVyfHJvb3R8MzU0MjIyfGltYWdlL2pwZWd8aDExL2gzYy8xMDM0NTAyNjM1NTIzMC5qcGd8YzZjMDA4ZDdmY2ZlNjYzOGU0MzVmMDVkOWNjZTVmNjJhNmI5MGQzM2FlZWQzMzdkYzE4NTM2NDA4ZjBmZjZjOA.tmp’
+
+          www2.hm.co   0%[                      ]       0  --.-KB/s               www2.hm.com/medias/S 100%[=====================>] 345.92K  --.-KB/s    in 0.09s   
+
+2017-09-03 09:07:50 (3.65 MB/s) - ‘www2.hm.com/medias/SPRING-ICONS-en.jpg?context=bWFzdGVyfHJvb3R8MzU0MjIyfGltYWdlL2pwZWd8aDExL2gzYy8xMDM0NTAyNjM1NTIzMC5qcGd8YzZjMDA4ZDdmY2ZlNjYzOGU0MzVmMDVkOWNjZTVmNjJhNmI5MGQzM2FlZWQzMzdkYzE4NTM2NDA4ZjBmZjZjOA.tmp’ saved [354222/354222]
+
+Removing www2.hm.com/medias/SPRING-ICONS-en.jpg?context=bWFzdGVyfHJvb3R8MzU0MjIyfGltYWdlL2pwZWd8aDExL2gzYy8xMDM0NTAyNjM1NTIzMC5qcGd8YzZjMDA4ZDdmY2ZlNjYzOGU0MzVmMDVkOWNjZTVmNjJhNmI5MGQzM2FlZWQzMzdkYzE4NTM2NDA4ZjBmZjZjOA.tmp since it should be rejected.
+
+FINISHED --2017-09-03 09:07:50--
+Total wall clock time: 1.8s
+Downloaded: 6 files, 1.2M in 0.4s (2.88 MB/s)

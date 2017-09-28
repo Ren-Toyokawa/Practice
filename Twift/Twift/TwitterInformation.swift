@@ -9,33 +9,39 @@
 import Foundation
 import Accounts
 import Social
-import BrightFutures
+import SwiftyJSON
 
 class TwitterInformation {
     
     var accountStore: ACAccountStore = ACAccountStore()
     var twAccount: ACAccount = ACAccount()
-    let TWITTER_TIMELINE_URL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
+    private var my_id: String = String()
     
+    // initializeation twitter information
     init(){
-        let setTwAccount = { (accounts: [ACAccount]) -> Void in
+        getAccounts(callBack: { (accounts: [ACAccount]) -> Void in
             self.twAccount = accounts[0]
             print("twitter Account get successfull")
-        }
-        getAccounts(callBack: setTwAccount)
+        })
+        
+//        getAccountData(action: {(json:JSON) -> Void in
+//            self.waitAcquireAccount()
+//            self.my_id = json["id"].stringValue
+//        })
     }
     
+    
+    // get account kick Twitter API
     func getAccounts(callBack: @escaping ([ACAccount]) -> Void){
         // アカウントのタイプを取得する
-        let promise = Promise<Profile,NSError>()
-        
+        //let promise = Promise<Profile,NSError>()
+        print("start Account Get.....")
         
         let accountType: ACAccountType = accountStore.accountType(withAccountTypeIdentifier: ACAccountTypeIdentifierTwitter)
-        print("Account get")
         accountStore.requestAccessToAccounts(with: accountType, options: nil) {(granted: Bool, error: Error?) -> Void in
             if error != nil {
                 // エラー処理
-                print("error! \(error)")
+                print("error! \(String(describing: error))")
                 return
             }
             if !granted {
@@ -49,31 +55,66 @@ class TwitterInformation {
             }
             callBack(accounts)
         }
+        
+        print("End Account Get.....")
 
     }
-
     
+    func getAccountData(action:@escaping (JSON) -> Void){
+        let url:URL = URL(string:"https://api.twitter.com/1.1/account/verify_credentials.json")!
+        getTwInfo(url: url, action: action)
+    }
+    
+    func getFollowers(action:@escaping (JSON) -> Void){
+        let url:URL = URL(string:"https://api.twitter.com/1.1/account/verify_credentials.json")!
+        getTwInfo(url: url, action: action)
+    }
+    
+    private func getUserId(){
+        waitAcquireAccount()
+        let url:URL = URL(string:"https://api.twitter.com/1.1/users/show.json")!
+        getTwInfo(url: url, action: { (json: JSON) -> Void in
+            print("getUserId")
+            print(json)
+        })
+    }
+//    
     /**
         TimeLineを取得する。
-        - parameter callBack: クロージャ　何するかわかんね
         - returns: Void
      */
-    func getTimeLine(){
-        let url:URL = URL(string:TWITTER_TIMELINE_URL)!
-        Thread.sleep(forTimeInterval: 3)
+    func getTimeLine(action:@escaping (JSON) -> Void ){
+        let url:URL = URL(string:"https://api.twitter.com/1.1/statuses/home_timeline.json")!
+        getTwInfo(url: url, action: action)
+    }
+    
+    func getFollowersData(action:@escaping (JSON) -> Void){
+        let url:URL = URL(string:"https://api.twitter.com/1.1/followers/list.json?")!
+        getTwInfo(url : url,action : action)
+    }
+    
+    private func getTwInfo(url: URL ,action:@escaping (JSON) -> Void){
+        if(twAccount.username == nil){
+          waitAcquireAccount()
+        }
+        
+        print(twAccount.username)
         sendRequest(url: url, requestMethod: .GET , params: nil){(responseData,urlResponse) -> Void in
             do{
                 let result = try JSONSerialization.jsonObject(with: responseData, options: .allowFragments)
-                print("TimeLine取得")
-                print(result)
-            } catch{
+                let resultJSON = JSON(result)
+                // わたされたclosure によって　値の加工等をする
+                // どういったことをするのかは、呼び出し元に委ねる
+                action(resultJSON)
+            }catch{
                 print("エラーが発生しました。")
             }
         }
-    
+        
     }
     
-    //疑問メモ：Swift3から最初の引数もラベルが必要になったらしい。一貫性のラベルをつけるためらしいけど、これで一貫性は保たれるのか？
+    
+    // send to http request
     private func sendRequest(url: URL, requestMethod: SLRequestMethod, params: AnyObject?, responseHandler: @escaping (_ responseData: Data,_ urlResponse: HTTPURLResponse?) -> Void){
         let request:SLRequest = SLRequest(forServiceType: SLServiceTypeTwitter,
                                           requestMethod: requestMethod,
@@ -82,14 +123,24 @@ class TwitterInformation {
         request.account = twAccount
         request.perform { (responseData: Data?,urlResponse: HTTPURLResponse?,error: Error?) -> Void in
             if(error != nil) {
-                print("error is \(error)")
+                print("error is \(String(describing: error))")
             } else {
-                // 疑問メモ　まず、引数に使うクロージャは、属性として、@escapingをつけないといけないらしい。なぜかはわからないが。
                 responseHandler(responseData!,urlResponse)
             }
         }
     }
     
     
+    // アカウントが認証されるまで待機させるメソッド
+    private func waitAcquireAccount(){
+        sleep(1)
+        if twAccount.username == nil{
+            print("Account Loding...")
+            waitAcquireAccount()
+        }else{
+            print("Account Get Success Full")
+        }
+        
+    }
     
 }
