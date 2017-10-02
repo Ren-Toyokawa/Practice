@@ -8,12 +8,15 @@
 
 import UIKit
 import SwiftyJSON
+import Hydra
+
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
     // Tableで使用する配列を設定する
     private var myTableView: UITableView!
     private let CELL_NAME = NSStringFromClass(TimeLineCell.self)
+    
     
     private var TWEET_GET_SUCCESS = false
     
@@ -42,7 +45,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 addTweet.tweet = timeline["text"].stringValue
                 addTweet.userName = timeline["name"].stringValue
                 addTweet.iconUrl = timeline["user"]["profile_image_url_https"].stringValue
-                print(addTweet.iconUrl)
                 self.retTimeLine.append(addTweet)
             })
             self.TWEET_GET_SUCCESS = true
@@ -68,10 +70,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         // Viewの高さと幅を取得する.
         let displayWidth: CGFloat = self.view.frame.width
         let displayHeight: CGFloat = self.view.frame.height
-        
-        
-//        self.myTableView.estimatedRowHeight = 50
-//        self.myTableView.rowHeight = UITableViewAutomaticDimension
         
         // TableViewの生成(Status barの高さをずらして表示).
         myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight))
@@ -105,19 +103,27 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
      Cellに値を設定する
      */
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
         // 再利用するCellを取得する.
         let cell = tableView.dequeueReusableCell(withIdentifier: CELL_NAME, for: indexPath as IndexPath) as! TimeLineCell
-        
+    
         // Cellに値を設定する.
         cell.accountName!.text = "\(retTimeLine[indexPath.row].account)"
         cell.tweet!.text = "\(retTimeLine[indexPath.row].tweet)"
+        
+        let fetchImagePromise = Promise<UIImage>{ resolve,reject in
+            getImage(url:url,setImageView:
+                {(imageView) in
+                    print("image get successfull")
+                    cell.accountIconView = imageView
+            })
+        }
+        
+        
+        
         let url = URL(string: retTimeLine[indexPath.row].iconUrl)!
-        getImage(url:url,setImageView:
-            {(imageView) in
-                print(imageView.animationRepeatCount)
-                cell.accountIconView = imageView
-                print("image get successfull")
-        })
+        
         
         return cell
     }
@@ -128,7 +134,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     private func getImage(url : URL,setImageView :@escaping (UIImageView) -> Void){
         print("start get images...")
-        let CACHE_SEC : TimeInterval = 5 * 60;
+        let CACHE_SEC : TimeInterval = 5 * 60
         let req = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: CACHE_SEC)
         let conf = URLSessionConfiguration.default
         let session = URLSession(configuration: conf, delegate: nil, delegateQueue: OperationQueue.main)
@@ -137,7 +143,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 if((err) == nil){
                     setImageView(UIImageView(image: UIImage(data:data!)))
                 }else{ //Error
-                    
+                    print("Error")
                 }
         }).resume()
     }

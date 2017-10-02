@@ -53,8 +53,8 @@ class TimeLineCell: UITableViewCell {
         super.layoutSubviews()
         
         accountIconView.frame = CGRect(x: (frame.width / 10) * 2 , y: 10, width: (frame.width / 10) * 2.5, height: frame.height)
-//        accountName.frame = CGRect(x: 110, y: 0, width: frame.width, height: frame.height)
-//        tweet.frame = CGRect(x: (frame.width / 10) * 2 , y: 10, width: (frame.width / 10) * 7.5, height: frame.height)
+        accountName.frame = CGRect(x: 110, y: 0, width: frame.width, height: frame.height)
+        tweet.frame = CGRect(x: (frame.width / 10) * 2 , y: 10, width: (frame.width / 10) * 7.5, height: frame.height)
     }
 
 }

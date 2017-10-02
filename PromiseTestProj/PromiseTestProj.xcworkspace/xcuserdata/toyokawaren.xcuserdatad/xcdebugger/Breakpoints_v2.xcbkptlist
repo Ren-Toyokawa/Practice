@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PromiseTestProj/ViewController.swift"
+            timestampString = "511965970.932923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PromiseTestProj.ViewController.__deallocating_deinit"
+                  moduleName = "PromiseTestProj"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toyokawaren/GitHub/Practice/PromiseTestProj/PromiseTestProj/ViewController.swift"
+                  timestampString = "511699929.221732"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PromiseTestProj.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PromiseTestProj.ViewController"
+                  moduleName = "PromiseTestProj"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toyokawaren/GitHub/Practice/PromiseTestProj/PromiseTestProj/ViewController.swift"
+                  timestampString = "511699929.223846"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PromiseTestProj.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PromiseTestProj.ViewController"
+                  moduleName = "PromiseTestProj"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toyokawaren/GitHub/Practice/PromiseTestProj/PromiseTestProj/ViewController.swift"
+                  timestampString = "511699929.226864"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PromiseTestProj.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PromiseTestProj.ViewController&gt;"
+                  moduleName = "PromiseTestProj"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toyokawaren/GitHub/Practice/PromiseTestProj/PromiseTestProj/ViewController.swift"
+                  timestampString = "511699929.228433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PromiseTestProj.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PromiseTestProj.ViewController&gt;"
+                  moduleName = "PromiseTestProj"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toyokawaren/GitHub/Practice/PromiseTestProj/PromiseTestProj/ViewController.swift"
+                  timestampString = "511699929.229825"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.0.1)
+  - BrightFutures (5.1.0):
+    - Result (~> 3.0)
+  - Result (3.2.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - BrightFutures
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  BrightFutures: 62aafb1a63520eda91c9286bf4be33e58e043938
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 45b7a7a876abdd8e080f785bc9417f728530b2c4
+
+COCOAPODS: 1.2.0
