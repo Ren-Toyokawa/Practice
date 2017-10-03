@@ -1,6 +1,0 @@
-framework module Pods_PromiseTestProj {
-  umbrella header "Pods-PromiseTestProj-umbrella.h"
-
-  export *
-  module * { export * }
-}
