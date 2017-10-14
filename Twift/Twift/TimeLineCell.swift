@@ -16,7 +16,6 @@ class TimeLineCell: UITableViewCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         // SelectShopFieldを配置する
         self.installationLabel()
     }
@@ -25,9 +24,8 @@ class TimeLineCell: UITableViewCell {
         labelInitialize()
         imageViewInitialize()
         
-        contentView.addSubview(accountIconView)
-        contentView.addSubview(accountName)
         contentView.addSubview(tweet)
+        
     }
     
     private func labelInitialize(){
@@ -37,6 +35,7 @@ class TimeLineCell: UITableViewCell {
         tweet.textAlignment = .justified
         tweet.numberOfLines = 0
     }
+    
     private func imageViewInitialize(){
         accountIconView = UIImageView()
     }
@@ -51,8 +50,9 @@ class TimeLineCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        accountIconView.frame = CGRect(x: (frame.width / 10) * 2 , y: 10, width: (frame.width / 10) * 2.5, height: frame.height)
+        contentView.addSubview(accountIconView)
+        contentView.addSubview(accountName)
+        accountIconView.frame = CGRect(x: 0 , y: 0, width: (frame.width / 10) * 2, height: frame.height)
         accountName.frame = CGRect(x: 110, y: 0, width: frame.width, height: frame.height)
         tweet.frame = CGRect(x: (frame.width / 10) * 2 , y: 10, width: (frame.width / 10) * 7.5, height: frame.height)
     }

@@ -10,6 +10,7 @@ import Foundation
 import Accounts
 import Social
 import SwiftyJSON
+import Hydra
 
 class TwitterInformation {
     
@@ -23,11 +24,6 @@ class TwitterInformation {
             self.twAccount = accounts[0]
             print("twitter Account get successfull")
         })
-        
-//        getAccountData(action: {(json:JSON) -> Void in
-//            self.waitAcquireAccount()
-//            self.my_id = json["id"].stringValue
-//        })
     }
     
     
@@ -78,7 +74,7 @@ class TwitterInformation {
             print(json)
         })
     }
-//    
+    
     /**
         TimeLineを取得する。
         - returns: Void
@@ -129,6 +125,7 @@ class TwitterInformation {
             }
         }
     }
+
     
     
     // アカウントが認証されるまで待機させるメソッド

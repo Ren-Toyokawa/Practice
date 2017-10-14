@@ -21,6 +21,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     private var TWEET_GET_SUCCESS = false
     
     struct Tweet {
+        var icon = UIImageView()
         var iconUrl = String()
         var account = String()
         var userName = String()
@@ -33,28 +34,32 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let twInfo : TwitterInformation = TwitterInformation()
-        
         let setTimeLine = { (timeline: JSON) -> Void in
             
-            print("Processing add Timeline now")
-            timeline.forEach({(_,timeline) in
-                var addTweet = Tweet()
-                
-                addTweet.tweet = timeline["text"].stringValue
-                addTweet.userName = timeline["name"].stringValue
-                addTweet.iconUrl = timeline["user"]["profile_image_url_https"].stringValue
-                self.retTimeLine.append(addTweet)
+            // 汚い...
+            async({_ -> Void in
+                timeline.forEach({(_,timeline) in
+                    var addTweet = Tweet()
+                    addTweet.tweet = timeline["text"].stringValue
+                    addTweet.userName = timeline["name"].stringValue
+                    let url = URL(string: timeline["user"]["profile_image_url_https"].stringValue)!
+                    try! await (self.getImage(url: url).then{ imageView throws -> () in
+                        print(imageView.image?.size.width ?? "nil")
+                        print(imageView.image?.size.height ?? "nil")
+                        addTweet.icon = imageView
+                    })
+                    self.retTimeLine.append(addTweet)
+                })
+            }).then({_ in
+                self.tableViewSetting()
             })
-            self.TWEET_GET_SUCCESS = true
-        }
-        
-        twInfo.getTimeLine(action:setTimeLine)
-        tableViewSetting()
-    
     }
-
+    
+    twInfo.getTimeLine(action:setTimeLine)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -64,7 +69,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     private func tableViewSetting() {
         print("start setting table view")
         // Status Barの高さを取得する.
-        waitGetTimeLine()
         let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
         
         // Viewの高さと幅を取得する.
@@ -99,68 +103,45 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return retTimeLine.count
     }
     
-    /*
-     Cellに値を設定する
-     */
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        // 再利用するCellを取得する.
-        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_NAME, for: indexPath as IndexPath) as! TimeLineCell
-    
-        // Cellに値を設定する.
-        cell.accountName!.text = "\(retTimeLine[indexPath.row].account)"
-        cell.tweet!.text = "\(retTimeLine[indexPath.row].tweet)"
-        
-        let fetchImagePromise = Promise<UIImage>{ resolve,reject in
-            getImage(url:url,setImageView:
-                {(imageView) in
-                    print("image get successfull")
-                    cell.accountIconView = imageView
-            })
-        }
-        
-        
-        
-        let url = URL(string: retTimeLine[indexPath.row].iconUrl)!
-        
-        
-        return cell
-    }
-    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
     
-    private func getImage(url : URL,setImageView :@escaping (UIImageView) -> Void){
-        print("start get images...")
-        let CACHE_SEC : TimeInterval = 5 * 60
-        let req = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: CACHE_SEC)
-        let conf = URLSessionConfiguration.default
-        let session = URLSession(configuration: conf, delegate: nil, delegateQueue: OperationQueue.main)
-        session.dataTask(with: req,completionHandler:
-            { (data,resp,err) in
-                if((err) == nil){
-                    setImageView(UIImageView(image: UIImage(data:data!)))
-                }else{ //Error
-                    print("Error")
-                }
-        }).resume()
-    }
-    
-    
-    // アカウントが認証されるまで待機させるメソッド
-    private func waitGetTimeLine(){
-        if TWEET_GET_SUCCESS {
-           print("TimeLine Get Success Full")
-        }else{
-            print("TimeLine Loding...")
-            sleep(1)
-            waitGetTimeLine()
-        }
+    /*
+     Cellに値を設定する
+     */
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // 再利用するCellを取得する.
+        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_NAME, for: indexPath as IndexPath) as! TimeLineCell
+        // Cellに値を設定する.
+        cell.accountName!.text = "\(retTimeLine[indexPath.row].account)"
+        cell.tweet!.text = "\(retTimeLine[indexPath.row].tweet)"
+        cell.accountIconView = retTimeLine[indexPath.row].icon
         
+        
+        
+        print("return cell")
+        return cell
     }
-
+    
+    func getImage(url:URL) -> Promise<UIImageView>{
+        return Promise<UIImageView>{resolve,reject, _ in
+            print("start get images...")
+            let CACHE_SEC : TimeInterval = 5 * 60
+            let req = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: CACHE_SEC)
+            let conf = URLSessionConfiguration.default
+            let session = URLSession(configuration: conf, delegate: nil, delegateQueue: OperationQueue.main)
+            session.dataTask(with: req,completionHandler:
+                { (data,resp,err) in
+                    if let err = err{
+                        reject(err)
+                    }else{
+                        print("Success")
+                        resolve(UIImageView(image: UIImage(data:data!)))
+                    }
+            }).resume()
+        }
+    }
 
 }
 
